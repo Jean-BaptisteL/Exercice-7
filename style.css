@@ -1,4 +1,4 @@
-body
+body, .b
 {
   font-size: 1.5rem;
 }
@@ -8,9 +8,17 @@ body
 }
 .adf
 {
-  background-color: #9A12B3
+  background-color: #9A12B3;
 }
 .r
 {
   background-color: #DB0A5B;
+}
+li
+{
+  margin-bottom: 5px;
+}
+#visa, #mastercard
+{
+  margin-left: 70px;
 }
