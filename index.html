@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Achat de fraises Tagada</title>
+  </head>
+  <body>
+    <form method="post">
+      <fieldset class="idf">
+        <legend class="idf">Votre identité</legend>
+        <ol>
+          <li><label>Nom : </label><input type="text" name="nom" placeholder="Nom" /></li>
+          <li><label>Prénom : </label><input type="text" name="prénom" placeholder="Prénom" /></li>
+          <li><label>Adresse mail : </label><input type="text" name="adesse mail"placeholder="Adresse mail" /></li>
+        </ol>
+      </fieldset>
+      <fieldset class="adf">
+        <legend class="adf">Adresse de livraison</legend>
+        <ol>
+          <li><label>Adresse : </label><textarea name="adresse" id="adresse"cols="40" rows="4"></textarea></li>
+          <li><label>Code postal : </label><input type="text" name="code" placeholder="Code postal" /></li>
+          <li><label>Ville : </label><input type="text" name="ville" placeholder="Ville" /></li>
+        </ol>
+      </fieldset>
+      <fieldset class="r">
+        <legend class="r">Information de règlement</legend>
+        <ol>
+          <li><label>Type de carte bancaire : </label><br />
+            <input type="radio" name="cb" value="VISA" id="visa">
+            <label for="visa" class="inline">VISA</label><br />
+            <input type="radio" name="cb" value="Mastercard" id="mastercard">
+            <label for="visa" class="inline">Mastercard</label>
+          </li>
+          <li><label>Numéro de carte : </label><input type="text" name="nc" placeholder="Numéro de carte" /></li>
+          <li><label>Code de sécurité : </label><input type="text" name="cs" placeholder="Code de sécurité" /></li>
+          <li><label>Nom de titulaire : </label><input type="text" name="nt" placeholder="Nom du titulaire" /></li>
+        </ol>
+      </fieldset>
+      <input type="submit" name="Buying" value="J'achète !"  />
+    </form>
+  </body>
+</html>
