@@ -2,23 +2,19 @@ body, .b
 {
   font-size: 1.5rem;
 }
-.idf
+.identity
 {
   background-color: #2574A9;
 }
-.adf
+.delivery
 {
   background-color: #9A12B3;
 }
-.r
+.payment
 {
   background-color: #DB0A5B;
 }
-li
+ul li
 {
-  margin-bottom: 5px;
-}
-#visa, #mastercard
-{
-  margin-left: 70px;
+  list-style: none;
 }
